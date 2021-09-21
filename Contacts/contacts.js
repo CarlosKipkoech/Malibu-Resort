@@ -26,6 +26,9 @@ if($('#email').val() == "") {
 	stopsubmit=true;
 }
   if(stopsubmit) return false;
+  $("#submitt").click(function(){
+    alert("We have received your message. Thank you")
+})
 });
 		
 });
