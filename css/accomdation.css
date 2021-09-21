@@ -4,6 +4,9 @@
     background-size: 100% 100%;
     border-radius: 20px;
 }
+#space{
+    padding-top: 15%;
+}
 
 .mag{
     width: 300px;
