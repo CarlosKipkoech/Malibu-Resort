@@ -11,6 +11,7 @@ body{
 }
 #contacts{
     margin: 50px;
+    padding-bottom: 50px;
 }
 .contacts-content{
     background-color: rgba(0, 0, 0, 0.5);
@@ -212,4 +213,30 @@ label{
 .fontawesome{
         text-align:center;
         width:100%;
+}
+/*Styling emails*/
+.email{
+    color: azure;
+}
+.email h1{
+	font-weight: normal;
+	font-size: 3em;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 500px;
+	color: azure;
+	text-align: center;
+
+}
+.email p{
+	font-weight: normal;
+    font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 500px;
+	color: azure;
+	text-align: center;
+
 }
