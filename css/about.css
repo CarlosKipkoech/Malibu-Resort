@@ -7,7 +7,7 @@
     border-start-start-radius: 70px;
 }
 .about {
-    background-image: url("../assets/gif2.gif");
+    background-image: url("../assets/gif3.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -26,4 +26,11 @@
 .img1{
     width: 100%;
     height: auto;
+}
+.activities{ 
+    background-color: rgb(37, 150, 190);
+}
+.activities img{
+    border: 10px solid rgba(94, 24, 24, 0.411);
+   
 }
