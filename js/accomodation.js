@@ -5,6 +5,7 @@
          $(".togOut").toggle(2000);
 
      })
+
  })  
  
  function bookingForm(){

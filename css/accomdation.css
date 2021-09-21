@@ -7,13 +7,16 @@
 #space{
     padding-top: 10%;
     color: snow;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
 #space h1{ 
     /* color: red; */
-    font-weight: 900;
+    font-weight: 400;
+    font-size:70px;
+    font-family: 'Bonheur Royale', cursive;
+
     
 }
 
@@ -71,5 +74,10 @@ font-family: 'Lobster', cursive;
     font-weight: 900;
     font-size: 80px;
     font-family: 'Bonheur Royale', cursive;
+    text-decoration: underline;
+    text-decoration-color: red;
 
+}
+h1{
+    font-family: 'Pacifico', cursive;
 }
