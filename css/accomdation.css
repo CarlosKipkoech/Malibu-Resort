@@ -59,3 +59,17 @@
 #sort{
     font-weight: 1000;
 }
+.ribu{
+font-size: 40px;
+color:red;
+font-family: 'Lobster', cursive;
+
+}
+
+.libu{
+    color: rgb(157,212,225);
+    font-weight: 900;
+    font-size: 80px;
+    font-family: 'Bonheur Royale', cursive;
+
+}
