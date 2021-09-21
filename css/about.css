@@ -1,11 +1,11 @@
 .about h1{
     font-size: 50px;
     color: #2596be;
-    text-shadow: 5px #2596be;
+    text-shadow: 2px 3px rgb(221, 6, 6);
     background-color: white;
     width: 50%;
-    border-end-end-radius: 50px;
-    border-start-start-radius: 50px;
+    border-end-end-radius: 70px;
+    border-start-start-radius: 70px;
 }
 .about {
     background-image: url("../assets/gif1.gif");
