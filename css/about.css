@@ -1,16 +1,29 @@
 .about h1{
     font-size: 50px;
     color: #2596be;
-    text-shadow: 2px 3px rgb(221, 6, 6);
+    text-shadow: 2px 3px rgba(94, 24, 24, 0.411);
     background-color: white;
-    width: 50%;
     border-end-end-radius: 70px;
     border-start-start-radius: 70px;
 }
 .about {
-    background-image: url("../assets/gif1.gif");
+    background-image: url("../assets/gif2.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    
+}
+.about .desc {
+    background-color: white;
+    opacity: 0.75;
+    color: rgb(37, 150, 190);
+    font-size: 500;
+    width: 50%;
+    border-end-end-radius: 150px;
+    border-start-start-radius: 120px; 
+    border: 10px solid rgba(94, 24, 24, 0.411);
+}
+.img1{
+    width: 100%;
+    height: auto;
 }
