@@ -1,0 +1,27 @@
+.showcase-area {
+}
+.navabar {
+  margin-bottom: -1%;
+  background-color: none;
+  color: white;
+  padding: 0;
+  font-weight: bold;
+}
+.showcase-text {
+  color: white;
+  font-size: 35px;
+}
+.showcase-subtext {
+  color: white;
+  font-size: 28px;
+}
+.carousel-indicators {
+  position: absolute;
+  top: -75%;
+}
+.nav-item {
+  padding-left: 20%;
+}
+.navbarbrand {
+  margin-left: -260%;
+}
