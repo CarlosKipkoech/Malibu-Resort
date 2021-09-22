@@ -180,7 +180,7 @@
                         <br> <br>
 
 
-                        <input type="number" name="NUMBER" class="form" id="#" placeholder="No. of Guests ..." required
+                        <input type="number" name="NUMBER" class="form" id="#" placeholder="No.of Guests ..." required
                         value="" min="1" max="4">
 
                         <br> <br>
@@ -188,10 +188,15 @@
                         <!-- Arrival/dep -->
 
                         <input type="date" name="NUMBER" class="form" id="#" placeholder="Check -in- Date ..." required
-                            value="">
+                            value="" >
+                            <label for="check"><p class="check"> C-INN  </p></label>
+                            
 
                         <input type="date" name="NUMBER" class="form" id="#" placeholder="Check -out- Date  ..." required
                             value="">
+
+
+                            <label for="check"><p class="check"> C-OUT </p></label>
 
 
                     </div>
@@ -201,7 +206,7 @@
                     <div>
                         <textarea name="" id="message" placeholder="Drop a comment..."></textarea>
                     </div>
-                    <button type="submit" class="btn btn-outline success rounded" onclick="bookingForm()">Submit</button>
+                    <button type="submit" class="btn btn-outline-danger rounded" onclick="bookingForm()">Book </button>
 
                 </form>
 
@@ -331,7 +336,7 @@ data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUUFBcVFRUXFxcZGBodG
 
                     </a>
                 </div>
-                
+
 
             </div>
         
