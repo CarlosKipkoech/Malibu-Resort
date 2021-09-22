@@ -84,6 +84,15 @@ font-family: 'Lobster', cursive;
     text-decoration-color: red;
 
 }
+.libux{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Bonheur Royale', cursive;
+    /* text-decoration: underline;
+    text-decoration-color: red; */
+
+}
 h1{
     font-family: 'Pacifico', cursive;
 }
@@ -92,8 +101,8 @@ h1{
     color: black;
 }
 .nav-item {
-    padding-left: 50px;
-    padding-right: 40px;
+    /* padding-left: 20px; */
+    padding-right: 70px;
     background-color: rgb(157,212,225);
   }
   .collapse {

@@ -21,7 +21,7 @@
         } 
         
         else if(name !== "" || email !== "" || message !== ""){
-            alert('Fill your details and drop a comment to proceed with Booking.')
+            alert('Fill your details to proceed with Booking and dont forget to drop a comment ...This will help us serve u BETTER..!!!')
         }
      }
 
