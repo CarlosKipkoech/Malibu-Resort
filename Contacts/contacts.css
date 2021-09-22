@@ -103,7 +103,7 @@ header{
 form{
 	margin: 0 auto;
 	width: 500px;
-	padding-top: 10px;
+	padding-top:0px;
 	color: white;
 	position: relative;
 	
@@ -159,7 +159,7 @@ input[type="submit"]:hover{
 }
 label{
 	font-size: 1.5em;
-	margin-top: 10px;
+	margin-top: 0px;
 	padding-left: 20px;
 }
 .formgroup, .formgroup-active, .formgroup-error{
@@ -362,7 +362,7 @@ span button{
 }
 /*Submit button*/
 form{
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 }
 /*Styling navbar and footer*/
 .nav-item {
