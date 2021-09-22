@@ -41,3 +41,79 @@ button #myBtn{
     outline: none;
     color: var(--bs-body-color);;
   }
+
+  .sidepanel  {
+  width: 100%;
+  z-index: 1;
+  /* height: 250px; */
+  top: 0;
+  left: 0;
+  background-color: rgb(37, 150, 190);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  
+}
+
+.sidepanel a:hover {
+    background-color: cornsilk;
+  color: rgb(37, 150, 190);
+}
+
+/* .sidepanel .closebtn {
+} */
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  
+  color: rgb(37, 150, 190);
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #2596be;
+}
+.nav-item {
+    padding-left: 50px;
+    padding-right: 40px;
+    background-color: #2596be;
+  }
+  .collapse {
+    background-color: #2596be;
+  }
+  ​
+  .nav-text {
+    color: white;
+    background-color: #2596be;
+  }
+  .navabar {
+    background-color: #2596be;
+  }
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+      inset 0 0.12em 0.4em rgba(0, 0, 0, 0.15);
+  }
+  ​
+  .bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+  }
+  .footer-item {
+    background: none;
+  }
