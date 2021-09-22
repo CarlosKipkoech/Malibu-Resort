@@ -1,3 +1,43 @@
 .about h1{
     font-size: 50px;
+    color: #2596be;
+    text-shadow: 2px 3px var(--bs-body-color);;
+    background-color: white;
+    border-end-end-radius: 70px;
+    border-start-start-radius: 70px;
 }
+.about {
+    background-image: url("../assets/gif3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.about .desc {
+    background-color: white;
+    opacity: 0.75;
+    color: rgb(37, 150, 190);
+    font-size: 500;
+    width: 50%;
+    border-end-end-radius: 150px;
+    border-start-start-radius: 120px; 
+    border: 10px solid var(--bs-body-color);;
+}
+.img1{
+    width: 100%;
+    height: auto;
+}
+.activities{ 
+    color: rgb(37, 150, 190);
+}
+.activities img{
+    border: 10px solid var(--bs-body-color);;
+   
+}
+button #myBtn{
+    float: right;
+    background-color: #2596be;
+    border: none;
+    outline: none;
+    color: var(--bs-body-color);;
+  }
