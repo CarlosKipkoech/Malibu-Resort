@@ -11,6 +11,11 @@
       crossorigin="anonymous"
     />
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/footers/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Tourney:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/footers/">
     <link rel="stylesheet" href="css/index.css" />
     <title>Homepage</title>
   </head>
@@ -28,16 +33,20 @@
         <nav class="navbar navabar p-0 navbar-light navbar-expand-lg">
           <div class="container-fluid">
             <nav class="navbar navbar-light">
-              <div class="container">
+              <div class="container navar">
                 <a class="navbar-brand" href="#">
+
                   <img
-                    class="navbarbrand"
+                    class="navbarbran"
                     src="img/logo.png"
                     alt=""
-                    width="130"
-                    height="130"
+                    width="110"
+                    height="80"
                   />
                 </a>
+                <span 
+           style="font-family: 'Permanent Marker', cursive;; color: white; font-size: 25px;" class="navlogo">Malibu Resort
+        </span>
               </div>
             </nav>
             <!--  <a class="navbar-brand text-light" href="#">Malibu</a>-->
@@ -65,36 +74,11 @@
                 <li class="nav-item">
                   <a class="nav-link text-light" href="./accomodation.html">Accomodations</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link text-light dropdown-toggle"
-                    href="./about.html"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    About
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a class="dropdown-item" href="#">Travel arrangements</a>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Activities</a></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li>
-                      <a class="dropdown-item" href="#">pricing</a>
-                    </li>
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="./about.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a
-                    class="nav-link disabled text-light"
-                    href="Contacts/contacts.html"
-                    tabindex="-1"
-                    aria-disabled="true"
-                    >Contact</a
-                  >
+                  <a class="nav-link text-light" href="Contacts/contacts.html">Contact</a>
                 </li>
               </ul>
               <!--
@@ -159,9 +143,9 @@
             alt="..."
           />
           <div class="carousel-caption d-none d-md-block">
-            <h5 class="showcase-text">First slide label</h5>
+            <h5 class="showcase-text">Good Vibes,High tides</h5>
             <p class="showcase-subtext">
-              Some representative placeholder content for the first slide.
+              "Some of the best memories are made in flip flops." — Kellie Elmore
             </p>
           </div>
         </div>
@@ -174,9 +158,9 @@
             alt="..."
           />
           <div class="carousel-caption d-none d-md-block">
-            <h5 class="showcase-text">First slide label</h5>
+            <h5 class="showcase-text">Talk to the palm tree</h5>
             <p class="showcase-subtext">
-              Some representative placeholder content for the first slide.
+              Room service will never go out of style.
             </p>
           </div>
         </div>
@@ -360,20 +344,23 @@
         </div>-->
       </div>
      </div>
+     
+
      <div class="b-example-divider"></div>
 
-<div class="container">
-  <footer class="pt-5">
-    <ul class="nav  border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Accomodation</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-    </ul>
-    <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
-  </footer>
-</div>
+     <div class="container">
+       <footer class="py-3 my-4">
+         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+           <li class="nav-item footer-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+           <li class="nav-item footer-item"><a href="#" class="nav-link px-2 text-muted">Book Now</a></li>
+           <li class="nav-item footer-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+           <li class="nav-item footer-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+           <li class="nav-item footer-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+         </ul>
+         <p class="text-center text-muted">&copy; 2021 The Malibu Resort, Inc</p>
+       </footer>
+     </div>
+     
                           
 
     <script
