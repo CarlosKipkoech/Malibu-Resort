@@ -86,18 +86,19 @@ h1{
 .nav-item {
     padding-left: 50px;
     padding-right: 40px;
-    background-color: #2596be;
+    background-color: rgb(157,212,225);
   }
   .collapse {
-    background-color: #2596be;
+    background-color: rgb(157,212,225);
   }
   ​
   .nav-text {
     color: white;
-    background-color: #2596be;
+    background-color: rgb(157,212,225);
   }
   .navabar {
-    background-color: #2596be;
+    background-color: rgb(157,212,225);
+    border-radius: 20px;
   }
   .b-example-divider {
     height: 3rem;
