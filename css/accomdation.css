@@ -82,7 +82,10 @@ font-family: 'Lobster', cursive;
 h1{
     font-family: 'Pacifico', cursive;
 }
-
+.bout{
+    font-weight: 900;
+    color: black;
+}
 .nav-item {
     padding-left: 50px;
     padding-right: 40px;
@@ -111,7 +114,8 @@ h1{
   ​
   .bi {
     vertical-align: -0.125em;
-    fill: currentColor;
+    fill:rgb(157,212,225);
+    ;
   }
   .footer-item {
     background: none;
