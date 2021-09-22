@@ -28,7 +28,7 @@
     height: auto;
 }
 .activities{ 
-    background-color: rgb(37, 150, 190);
+    color: rgb(37, 150, 190);
 }
 .activities img{
     border: 10px solid rgba(94, 24, 24, 0.411);
