@@ -43,6 +43,11 @@
 }
 .togOut{
     display: none;
+    padding: 10px;
+    border-radius: 10px;
+    /* font-size: 20px; */
+    border: 2px solid rgb(157,212,225);
+
 }
 
 #book{
@@ -79,6 +84,53 @@ font-family: 'Lobster', cursive;
     text-decoration-color: red;
 
 }
+.libux{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Bonheur Royale', cursive;
+    /* text-decoration: underline;
+    text-decoration-color: red; */
+
+}
 h1{
     font-family: 'Pacifico', cursive;
 }
+.bout{
+    font-weight: 900;
+    color: black;
+}
+.nav-item {
+    /* padding-left: 20px; */
+    padding-right: 70px;
+    background-color: rgb(157,212,225);
+  }
+  .collapse {
+    background-color: rgb(157,212,225);
+  }
+  ​
+  .nav-text {
+    color: white;
+    background-color: rgb(157,212,225);
+  }
+  .navabar {
+    background-color: rgb(157,212,225);
+    border-radius: 20px;
+  }
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+      inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  }
+  ​
+  .bi {
+    vertical-align: -0.125em;
+    fill:rgb(157,212,225);
+    ;
+  }
+  .footer-item {
+    background: none;
+  }
