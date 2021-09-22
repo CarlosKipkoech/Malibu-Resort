@@ -19,8 +19,8 @@
     color: rgb(37, 150, 190);
     font-size: 500;
     width: 50%;
-    border-end-end-radius: 150px;
-    border-start-start-radius: 120px; 
+    border-end-end-radius: 70px;
+    border-start-start-radius: 70px; 
     border: 10px solid var(--bs-body-color);;
 }
 .img1{
