@@ -283,7 +283,7 @@ label{
 .container .slider .slide .caption h2 {
     margin: 0 0 20;
     padding: 0;
-    color: #fff;
+    color:#2596be;
     font-size: 48px;
     transition: 0.5s;
 }
@@ -291,7 +291,7 @@ label{
 .container .slider .slide .caption p {
     margin: 0;
     padding: 0;
-    color: #fff;
+    color:#2596be;
     font-size: 20px;
     transition: 0.5s;
 }
@@ -358,7 +358,7 @@ span button{
     padding-top: 20px;
     text-align:center;
     width:100%;
-    color: white;
+    color:#2596be;
 }
 /*Submit button*/
 form{
