@@ -43,6 +43,11 @@
 }
 .togOut{
     display: none;
+    padding: 10px;
+    border-radius: 10px;
+    /* font-size: 20px; */
+    border: 2px solid rgb(157,212,225);
+
 }
 
 #book{
