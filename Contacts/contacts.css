@@ -1,270 +1,285 @@
-nav-item {
-    padding-left: 50px;
-    padding-right: 40px;
-    background-color: #2596be;
-  }
-  .collapse {
-    background-color: #2596be;
-  }
-  ​
-  .nav-text {
-    color: white;
-    background-color: #2596be;
-  }
-  .navabar {
-    background-color: #2596be;
-  }
-  .b-example-divider {
-    height: 3rem;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: solid rgba(0, 0, 0, 0.15);
-    border-width: 1px 0;
-    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
-      inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
-  }
-  ​
-  .bi {
-    vertical-align: -0.125em;
-    fill: currentColor;
-  }
-  .footer-item {
-    background: none;
-  }
-  body{
-    position: relative;
-    scroll-behavior: smooth;
-    font-family: 'Eczar', serif;
+.nav-item {
+  padding-left: 50px;
+  padding-right: 40px;
+  background-color: #2596be;
 }
-#contacts{
-    margin: 50px;
+.collapse {
+  background-color: #2596be;
 }
-h1{
-    text-align: center;
-    letter-spacing: 8px;
-    color: azure;
-    font-weight: bolder;
-    font-family: sans-serif;
-    font-size: 60px;
-    text-shadow: 2px 2px 5px rgb(75, 156, 202);
+​ .nav-text {
+  color: white;
+  background-color: #2596be;
+}
+.navabar {
+  background-color: #2596be;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
-  /*Styling the contact form*/
+​ .bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+.footer-item {
+  background: none;
+}
+.footerr {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+body {
+  position: relative;
+  scroll-behavior: smooth;
+}
+#contacts {
+  margin-top: 50px;
+}
+h1 {
+  text-align: center;
+  letter-spacing: 8px;
+  color: azure;
+  font-weight: bolder;
+  font-family: sans-serif;
+  font-size: 60px;
+  text-shadow: 2px 2px 5px rgb(75, 156, 202);
+}
+
+/*Styling the contact form*/
 @import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
-header h1{
-	font-weight: normal;
-	font-size: 2em;
-	font-family: 'Raleway', sans-serif;
-	margin: 0 auto;
-	width: 500px;
-	color: azure;
-	text-align: center;
-
+header h1 {
+  font-weight: normal;
+  font-size: 2em;
+  font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+  width: 500px;
+  color: azure;
+  text-align: center;
 }
-.location{
+.location {
   color: azure;
 }
-.location h1{
-font-weight: normal;
-font-size: 3em;
-font-family: 'Raleway', sans-serif;
-margin: 0 auto;
-margin-top: 10px;
-width: 500px;
-color: azure;
-text-align: center;
-
+.location h1 {
+  font-weight: normal;
+  font-size: 3em;
+  font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 500px;
+  color: azure;
+  text-align: center;
 }
-.location p{
-font-weight: normal;
+.location p {
+  font-weight: normal;
   font-size: 1.5em;
-font-family: 'Raleway', sans-serif;
-margin: 0 auto;
-margin-top: 10px;
-width: 500px;
-color: azure;
-text-align: center;
-
+  font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 500px;
+  color: azure;
+  text-align: center;
 }
-.fontawesome{
-      text-align:center;
-      width:100%;
+.fontawesome {
+  text-align: center;
+  width: 100%;
 }
 /*Styling emails*/
-.email{
+.email {
   color: azure;
 }
-.email h1{
-font-weight: normal;
-font-size: 3em;
-font-family: 'Raleway', sans-serif;
-margin: 0 auto;
-margin-top: 10px;
-width: 500px;
-color: azure;
-text-align: center;
-
+.email h1 {
+  font-weight: normal;
+  font-size: 3em;
+  font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 500px;
+  color: azure;
+  text-align: center;
 }
-.email p{
-font-weight: normal;
+.email p {
+  font-weight: normal;
   font-size: 1.5em;
-font-family: 'Raleway', sans-serif;
-margin: 0 auto;
-margin-top: 10px;
-width: 500px;
-color: azure;
-text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 500px;
+  color: azure;
+  text-align: center;
 }
-.contacts-content{
-  background-color: rgba(0, 0, 0, 0.5);;
+.contacts-content {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 /* Animation webkit */
-@-webkit-keyframes myfirst
-{
-	0% {margin-left: -235px}
-	90% {margin-left: 100%;}
-	100% {margin-left: 100%;}
+@-webkit-keyframes myfirst {
+  0% {
+    margin-left: -235px;
+  }
+  90% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: 100%;
+  }
 }
 
 /* Animation */
-@keyframes myfirst
-{
-	0% {margin-left: -235px}
-	70% {margin-left: 100%;}
-	100% {margin-left: 100%;}
+@keyframes myfirst {
+  0% {
+    margin-left: -235px;
+  }
+  70% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+.footer {
+  background-color: white;
 }
 
-.fish{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/fish.png');
-	width: 235px;
-	height: 104px;
-	margin-left: -235px;
-	position: absolute;	
-	animation: myfirst 24s;
-	-webkit-animation: myfirst 24s;
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	-webkit-animation-timing-function: linear;
+.fish {
+  background-image: url("http://www.geertjanhendriks.nl/codepen/form/fish.png");
+  width: 235px;
+  height: 104px;
+  margin-left: -235px;
+  position: absolute;
+  animation: myfirst 24s;
+  -webkit-animation: myfirst 24s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
 }
 
-#fish{
-	top: 100px;
+#fish {
+  top: 100px;
 }
 
-#fish2{
-	top: 240px;
-	animation-delay: 12s;
-	-webkit-animation-delay: 12s;
+#fish2 {
+  top: 240px;
+  animation-delay: 12s;
+  -webkit-animation-delay: 12s;
 }
 
-
-header{
-	height: 120px;
-	background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
+header {
+  height: 120px;
+  background: url("http://www.geertjanhendriks.nl/codepen/form/golf.png")
+    repeat-x bottom;
 }
 
-#form{
-	background-color: #98d4f3;
-	overflow: hidden;
-	position: relative;
-	
+#form {
+  background-color: #98d4f3;
+  overflow: hidden;
+  position: relative;
 }
-form{
-	margin: 0 auto;
-	width: 500px;
-	padding-top:0px;
-	color: white;
-	position: relative;
-  padding-bottom: 30px;	
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding-top: 0px;
+  color: white;
+  position: relative;
+  padding-bottom: 30px;
 }
-label, input, textarea{
-	display: block;	
+label,
+input,
+textarea {
+  display: block;
 }
-input, textarea{
-	width: 500px;	
-	border: none;
-	border-radius: 20px;
-	outline: none;
-	padding: 10px;
-	font-family: 'Sniglet', cursive;
-	font-size: 1em;
-	color: #676767;
-	transition: border 0.5s;
-	-webkit-transition: border 0.5s;
-	-moz-transition: border 0.5s;
-	-o-transition: border 0.5s;
-	border: solid 3px #98d4f3;	
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	
+input,
+textarea {
+  width: 500px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+  font-family: "Sniglet", cursive;
+  font-size: 1em;
+  color: #676767;
+  transition: border 0.5s;
+  -webkit-transition: border 0.5s;
+  -moz-transition: border 0.5s;
+  -o-transition: border 0.5s;
+  border: solid 3px #98d4f3;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-input:focus, textarea:focus{
-	border: solid 3px #77bde0;	
-}
-
-textarea{
-	height: 90px;	
-	resize: none; 
-	overflow: auto;
-}
-input[type="submit"]{
-	background-color: #F90;
-	color: white;
-	height: 50px;
-	cursor: pointer;
-	margin-top: 10px;
-	font-size: 1.29em;
-	font-family: 'Sniglet', cursive;
-	-webkit-transition: background-color 0.5s;
-	-moz-transition: background-color 0.5s;
-	-o-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-}
-input[type="submit"]:hover{
-	background-color: #77bde0;
-	
-}
-label{
-	font-size: 1.5em;
-	margin-top: 0px;
-	padding-left: 20px;
-}
-.formgroup, .formgroup-active, .formgroup-error{
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	background-size: 10.5%;
-	transition: background-image 0.7s;
-	-webkit-transition: background-image 0.7s;
-	-moz-transition: background-image 0.7s;
-	-o-transition: background-image 0.7s;
-	width: 566px;
-	padding-top: 2px;
+input:focus,
+textarea:focus {
+  border: solid 3px #77bde0;
 }
 
-.formgroup{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/pixel.gif');	
+textarea {
+  height: 90px;
+  resize: none;
+  overflow: auto;
 }
-.formgroup-active{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo.png');
+input[type="submit"] {
+  background-color: #f90;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1.29em;
+  font-family: "Sniglet", cursive;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
-.formgroup-error{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo-error.png');
-	color: red;
+input[type="submit"]:hover {
+  background-color: #77bde0;
 }
-.wholepage{
+label {
+  font-size: 1.5em;
+  margin-top: 0px;
+  padding-left: 20px;
+}
+.formgroup,
+.formgroup-active,
+.formgroup-error {
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 10.5%;
+  transition: background-image 0.7s;
+  -webkit-transition: background-image 0.7s;
+  -moz-transition: background-image 0.7s;
+  -o-transition: background-image 0.7s;
+  width: 566px;
+  padding-top: 2px;
+}
+
+.formgroup {
+  background-image: url("http://www.geertjanhendriks.nl/codepen/form/pixel.gif");
+}
+.formgroup-active {
+  background-image: url("http://www.geertjanhendriks.nl/codepen/form/octo.png");
+}
+.formgroup-error {
+  background-image: url("http://www.geertjanhendriks.nl/codepen/form/octo-error.png");
+  color: red;
+}
+.wholepage {
   background-image: url(./Images/contacts_background.jpeg);
   background-size: cover;
 }
 
-#travel{
+#travel {
   padding-top: 110px;
 }
-.travel-content{
+.travel-content {
   background-color: rgba(0, 0, 0, 0.5);
 }
 /*Styling the slides*/
-.container {
+.containerr {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -292,7 +307,7 @@ label{
   left: 60px;
   right: 60px;
   padding: 30px;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   transition: 0.5s;
 }
@@ -300,7 +315,7 @@ label{
 .container .slider .slide .caption h2 {
   margin: 0 0 20;
   padding: 0;
-  color:#2596be;
+  color: #2596be;
   font-size: 48px;
   transition: 0.5s;
 }
@@ -308,7 +323,7 @@ label{
 .container .slider .slide .caption p {
   margin: 0;
   padding: 0;
-  color:#2596be;
+  color: #2596be;
   font-size: 20px;
   transition: 0.5s;
 }
@@ -343,36 +358,39 @@ label{
 
 @keyframes animate {
   0% {
-      left: 0;
+    left: 0;
   }
   20% {
-      left: 0;
+    left: 0;
   }
   25% {
-      left: -100%;
+    left: -100%;
   }
   45% {
-      left: -100%;
+    left: -100%;
   }
   50% {
-      left: -200%;
+    left: -200%;
   }
   70% {
-      left: -200%;
+    left: -200%;
   }
   75% {
-      left: -300%;
+    left: -300%;
   }
   95% {
-      left: -300%;
+    left: -300%;
   }
   100% {
-      left: -400%;
+    left: -400%;
   }
 }
-span button{
+span button {
   padding-top: 20px;
-  text-align:center;
-  width:100%;
-  color:#2596be;
+  text-align: center;
+  width: 100%;
+  color: #2596be;
+}
+.captiona {
+  color: white;
 }
