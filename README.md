@@ -1,26 +1,26 @@
 # Malibu Resort
 #### Malibu Resort Website Application, 23rd September 2021
-#### By **Carlos Kipkoech** Annalis kirwa**, **Clara Metto**, Ezekiel Kibiego
+#### **By Carlos Kipkoech, Annalis kirwa, Clara Metto, Ezekiel Kibiego**
 
 ## ScreenShot
 <img src="assets/Screenshot.png">
 
 ## Description
-This is a Pizza online Restaurant Web Application where users can order pizza and get it delivered to their homes and/or offices.
+A resort website which gives the resort's about, location, activities, contacts as well as accommodation. Users can also give their testimonials/ratings of the resort as well as view pictures of the resort.
 
 # Installation / Setup instruction
 
 <ul>
 <li>Open Terminal {Ctrl+Alt+T}</li>
-<li>git clone https://github.com/ezekielkibiego/Hot-Pizza-Paradise.git</li>
-<li>cd Hot-Pizza-Paradise/li>
+<li>git clone https://github.com/DWN7777/Malibu-Resort</li>
+<li>cd Malibu-Resort</li>
 <li>code . for VS code to run it</li>
 <li>Go live or start your server</li>
 </ul>
 
 ### Live Link
 
-https://ezekielkibiego.github.io/Hot-Pizza-Paradise/
+https://dwn7777.github.io/Malibu-Resort/
 
 ## Known Bugs
 
@@ -37,25 +37,24 @@ No known Bugs yet
 </ul>
 
 ## BDD
-Scroll Order-Now to the form sectin;
+Navigate to the Accommodation page;
 
 <ul>
-<li>select your favorite type of Pizza, Crust and Toppings</li>
-<li>Click Proceed to see the list selected and amount </li>
-<li>Add pizza(as many as you can), click checkout</li>
-<li>Click Delivery option if you will it to be deliverd</li>
-<li>Fill in your delivery details and finally place your order</li>
-<li>You'll see a notification detailing the total amount payable inclusive of Delivery cost as well as the delivery location</li>
+<li>Select preferred room</li>
+<li> Click "Nook Now"</li>
+<li>You'll receive a confirmation alert</li>
+<li>Navigate through our travel arrangements</li>
 </ul>
 
 ## Support and contact details
-In case of any contributions or questions, email ezekiel.nyambane@student.moringaschool.com or kibiezekiel@gmail.com
+In case of any contributions or questions email,carlos.kipkoech@student.moringaschool.com , ezekiel.nyambane@student.moringaschool.com , annalis.kirwa@student.moringaschool.com ,
+clara.metto@student.moringaschool.com
 
 ### License
 
  #### MIT LICENCE
 
-Copyright (c) 2021 **Ezekiel Kibiego**
+Copyright (c) 2021 **Carlos Kipkoech, Annalis kirwa, Clara Metto, Ezekiel Kibiego**
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
