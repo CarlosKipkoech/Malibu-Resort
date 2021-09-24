@@ -1,66 +1,65 @@
-*{
+* {
   box-sizing: border-box;
 }
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 .sticky {
   position: fixed;
   color: white;
   width: 100%;
+  z-index: 100;
 }
 
-.about h1{
-    font-size: 50px;
-    color: #2596be;
-    text-shadow: 2px 3px var(--bs-body-color);;
-    background-color: white;
-    border-end-end-radius: 70px;
-    border-start-start-radius: 70px;
+.about h1 {
+  font-size: 50px;
+  color: #2596be;
+  text-shadow: 2px 3px var(--bs-body-color);
+  background-color: white;
+  border-end-end-radius: 70px;
+  border-start-start-radius: 70px;
 }
 .about {
-    background-image: url("../assets/gif3.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
+  background-image: url("../assets/gif3.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .about .desc {
-    background-color: white;
-    opacity: 0.75;
-    color: rgb(37, 150, 190);
-    font-size: 500;
-    width: 50%;
-    border-end-end-radius: 70px;
-    border-start-start-radius: 70px; 
-    border: 10px solid var(--bs-body-color);;
+  background-color: white;
+  opacity: 0.75;
+  color: rgb(37, 150, 190);
+  font-size: 500;
+  width: 50%;
+  border-end-end-radius: 70px;
+  border-start-start-radius: 70px;
+  border: 10px solid var(--bs-body-color);
 }
-.img1{
-    width: 100%;
-    height: auto;
+.img1 {
+  width: 100%;
+  height: auto;
 }
-.activities{ 
-    color: rgb(37, 150, 190);
+.activities {
+  color: rgb(37, 150, 190);
 }
-.activities img{
-    border: 10px solid var(--bs-body-color);;
-   
+.activities img {
+  border: 10px solid var(--bs-body-color);
 }
-button #myBtn{
+button #myBtn {
   color: #2596be;
-    float: right;
-    background-color: #2596be;
-    border: none;
-    outline: none;
-    color: var(--bs-body-color);;
-  }
+  float: right;
+  background-color: #2596be;
+  border: none;
+  outline: none;
+  color: var(--bs-body-color);
+}
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  
-;
+
   padding: 10px 15px;
   border: none;
 }
@@ -69,38 +68,35 @@ button #myBtn{
   background-color: #2596be;
 }
 .nav-item {
-    padding-left: 50px;
-    padding-right: 40px;
-    background-color: #2596be;
-  }
-  .collapse {
-    background-color: #2596be;
-  }
-  ​
-  a .nav-text {
-    color: white;
-    
-  }
-  .navabar a{
-    color: white;
-  }
-  .navabar {
-    background-color: #2596be;
-    color: white;
-  }
-  .b-example-divider {
-    height: 3rem;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: solid rgba(0, 0, 0, 0.15);
-    border-width: 1px 0;
-    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
-      inset 0 0.12em 0.4em rgba(0, 0, 0, 0.15);
-  }
-  ​
-  .bi {
-    vertical-align: -0.125em;
-    fill: currentColor;
-  }
-  .footer-item {
-    background: none;
-  }
+  padding-left: 50px;
+  padding-right: 40px;
+  background-color: #2596be;
+}
+.collapse {
+  background-color: #2596be;
+}
+​ a .nav-text {
+  color: white;
+}
+.navabar a {
+  color: white;
+}
+.navabar {
+  background-color: #2596be;
+  color: white;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.12em 0.4em rgba(0, 0, 0, 0.15);
+}
+​ .bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+.footer-item {
+  background: none;
+}
