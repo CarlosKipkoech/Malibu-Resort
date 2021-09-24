@@ -1,147 +1,214 @@
-.background{
-    background-image: url("https://www.panarihotels.com/hotel-nairobi/images/product/1048/Honey_moon_set_up_in_a_Deluxe_room.jpg");
-    height: 500px;
-    background-size: 100% 100%;
-    border-radius: 20px;
+.background {
+  background-image: url("https://www.panarihotels.com/hotel-nairobi/images/product/1048/Honey_moon_set_up_in_a_Deluxe_room.jpg");
+  height: 500px;
+  background-size: 100% 100%;
+  border-radius: 20px;
 }
-#space{
-    padding-top: 10%;
-    color: snow;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
+#space {
+  padding-top: 10%;
+  color: snow;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 
-#space h1{ 
-    /* color: red; */
-    font-weight: 400;
-    font-size:70px;
-    font-family: 'Bonheur Royale', cursive;
+.bookk {
+  background: none;
+  border: solid #2596be;
+  padding: 1%;
+  border-radius: 12px;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-shadow: 2px 2px black;
+}
+.bookk:hover {
+  background-color: #2596be;
+}
 
+#space h1 {
+  /* color: red; */
+  font-weight: 400;
+  font-size: 70px;
+  font-family: "Bonheur Royale", cursive;
+}
+
+.mag {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.mag:hover {
+  border: 4px solid red;
+  border-radius: 10px;
+}
+
+.mg {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+.togOut {
+  display: none;
+  padding: 10px;
+  border-radius: 10px;
+  /* font-size: 20px; */
+  border: 2px solid rgb(157, 212, 225);
+}
+.fail{
+    padding-top: 15px;
+    position: fixed;
+     top: 20.5%;
+     width: 100%;
+     height: 10%;
+     background-color: rgb(252, 81, 30);
+     color: white;
+     font-size: 18px;
+}
+.sucess{
+
+   padding-top: 15px;
+   position: fixed;
+    top: 20.5%;
+    width: 100%;
+    height: 10%;
+    background-color: green;
+    color: white;
+    font-size: 18px;
     
 }
-
-
-
-.mag{
-    width: 300px;
-    height: 200px;
-    border-radius: 10px;
-
+#book {
+  background-image: url("https://images.pexels.com/photos/2363331/pexels-photo-2363331.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 100% 100%;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 15px 8px 15px;
+}
+.rience:hover {
+  /* background-color:rgb(157,212,225); */
+  border-radius: 10px;
+  font-size: 20px;
+  border: 4px solid rgb(157, 212, 225);
 }
 
-.mag:hover{
-    border: 4px solid red;
-    border-radius: 10px;
-
+#sort {
+  font-weight: 1000;
+}
+.ribu {
+  font-size: 40px;
+  color: red;
+  font-family: "Lobster", cursive;
 }
 
-.mg{
-    width: 300px;
-    height: 200px;
-    border-radius: 10px;
-
+.libu {
+  color: rgb(157, 212, 225);
+  font-weight: 900;
+  font-size: 80px;
+  font-family: "Bonheur Royale", cursive;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
-.togOut{
-    display: none;
-    padding: 10px;
-    border-radius: 10px;
-    /* font-size: 20px; */
-    border: 2px solid rgb(157,212,225);
-
-}
-
-#book{
-    background-image: url("https://images.pexels.com/photos/2363331/pexels-photo-2363331.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-size: 100% 100%;
-    border-radius: 20px;
-    padding: 20px;
-}
-.rience:hover{
-    /* background-color:rgb(157,212,225); */
-    border-radius: 10px;
-    font-size: 20px;
-    border: 4px solid rgb(157,212,225);
-
-
-}
-
-#sort{
-    font-weight: 1000;
-}
-.ribu{
-font-size: 40px;
-color:red;
-font-family: 'Lobster', cursive;
-
-}
-
-.libu{
-    color: rgb(157,212,225);
-    font-weight: 900;
-    font-size: 80px;
-    font-family: 'Bonheur Royale', cursive;
-    text-decoration: underline;
-    text-decoration-color: red;
-
-}
-.libux{
-    color: white;
-    font-weight: 900;
-    font-size: 50px;
-    font-family: 'Bonheur Royale', cursive;
-    /* text-decoration: underline;
+.libux {
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
+  font-family: "Bonheur Royale", cursive;
+  /* text-decoration: underline;
     text-decoration-color: red; */
-
 }
-h1{
-    font-family: 'Pacifico', cursive;
+h1 {
+  font-family: "Pacifico", cursive;
 }
 
-.tog{
-    /* cursor: pointer; */
-    cursor: pointer;
-
+.tog {
+  /* cursor: pointer; */
+  cursor: pointer;
 }
-.mg:hover{
-    border: 4px solid red;
-    border-radius: 10px;
-
+.mg:hover {
+  border: 4px solid red;
+  border-radius: 10px;
 }
-.bout{
-    font-weight: 900;
-    color: black;
+.bout {
+  font-weight: 900;
+  color: black;
 }
 .nav-item {
-    /* padding-left: 20px; */
-    padding-right: 70px;
-    background-color: rgb(157,212,225);
-  }
-  .collapse {
-    background-color: rgb(157,212,225);
-  }
-  ​
-  .nav-text {
-    color: white;
-    background-color: rgb(157,212,225);
-  }
-  .navabar {
-    background-color: rgb(157,212,225);
-    border-radius: 20px;
-  }
-  .b-example-divider {
-    height: 3rem;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: solid rgba(0, 0, 0, 0.15);
-    border-width: 1px 0;
-    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
-      inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
-  }
-  ​
-  .bi {
-    vertical-align: -0.125em;
-    fill:rgb(157,212,225);
-    ;
-  }
-  .footer-item {
-    background: none;
-  }
+  /* padding-left: 20px; */
+  padding-right: 40px;
+  background-color: #2596be;
+}
+.collapse {
+  background-color: #2596be;
+}
+​ .nav-text {
+  color: white;
+  background-color: #2596be;
+}
+.navabar {
+  background-color: #2596be;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+​ .bi {
+  vertical-align: -0.125em;
+  fill: rgb(157, 212, 225);
+}
+.footer-item {
+  background: none;
+}
+.navbar-nav {
+  margin-left: 20%;
+}
+.nav1 {
+  overflow: hidden;
+  background-color: #2596be;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 100;
+}
+#bookkk{
+    padding-top: 5%;
+}
+
+.bookkk{
+font-weight: bold;
+    background-color:#2596be;
+  border: solid #2596be;
+  padding:2%;
+  border-radius: 12px;
+  color: white;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-shadow: 2px 2px black;
+}
+.form {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+select {
+    padding: 2%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.e-mail {
+  width: 100%;
+}
+textarea{
+    width: 70%;
+    display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+}
